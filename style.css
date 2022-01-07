@@ -1,6 +1,9 @@
 .yel-clr{
     color: rgb(255, 191, 73);
 }
+.meg-clr{
+    color: rgb(78, 24, 78);
+}
 h1{
     font-size: 50px;
     padding-left: 8px;
@@ -10,7 +13,7 @@ h1{
 h2{
     text-align: center;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
@@ -23,13 +26,13 @@ h3{
 }
 h4{
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 35px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;  
 }
 h5{
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     color: rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
@@ -61,19 +64,19 @@ h5{
     margin: 3% ;
     background-image: url(images/shape-1.png);
     background-repeat: no-repeat;
-    background-position: left;
-    background-size: 15%;
+    background-position:top;
+    background-size: 26%;
     height: 50%;
     width: auto;
 }
 #section4{
     margin: 3%;
     margin-top: auto;
-    margin-right: 0%;
+    margin-right: 5%;
     background-image: url(images/shape-1.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 15%;
+    background-size: 20%;
 }
 .text{
     font-family: 'Playfair Display', serif;
@@ -85,6 +88,12 @@ h5{
     border-color: rgb(255, 60, 60);
     border-image-slice: 1;
     margin-top: 80px;
+}
+.top-bg{
+    background-image: url(images/shape-5.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 31%;
 }
 .link-button{
     text-decoration: none;
@@ -139,7 +148,11 @@ h5{
     padding-right: 45px; 
 }
 .contact-info{
-    background-color: thistle;
+    background-color: rgb(255, 255, 255);
+    background-image: url(images/shape-5.png);
+    background-repeat: repeat;
+    background-size: 18%;
+    background-position: top;
     
 }
 .contact-info img{
@@ -173,12 +186,13 @@ h5{
     margin-right: auto;
 }
 .learn-more{
-    margin-top: 15px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 10%;
     width: 50%;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 3px solid;
     border-color: rgb(0, 0, 0);
     border-image-slice: 1;
@@ -187,15 +201,16 @@ h5{
 
 }
 .connect{
-    margin-top: 15px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 10%;
     border:3px solid;
     border-color: black;
     border-image-slice: 1;
     border-radius: 5%;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 50%;
     
 }
@@ -206,6 +221,24 @@ h5{
     image-resolution: fixed;
 }
 #contact{
-    padding: 20px;
+    padding-top:40px;
     padding-bottom: 0%;
+}
+.footer{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(100, 100, 100);
+    background-color: rgb(0, 0, 0);
+}
+.flex-container-footer{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.link{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
 }
