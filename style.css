@@ -15,6 +15,12 @@ h2{
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
 }
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
 h4{
     font-weight: bolder;
     font-size: 20px;
@@ -48,6 +54,13 @@ h4{
     background-repeat: no-repeat;
     background-position: left;
     background-size: 15%;
+    height: 50%;
+    width: auto;
+}
+#section4{
+    margin: 3%;
+    margin-top: auto;
+    margin-right: 0%;
 }
 .text{
     font-family: 'Playfair Display', serif;
@@ -107,7 +120,8 @@ h4{
     height: auto;
     width: 40%;
 }
-.coding-box{
+.time-box{
     text-align: left;
     font-size: 35px;
+    padding-right: 45px; 
 }
